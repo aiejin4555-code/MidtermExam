@@ -11,7 +11,7 @@ while True:
     if studentNameInput.replace(" ", "").isalpha():
         inputed_name = studentNameInput.strip().title()
         break
-    print("Please try again! Any special character or numbers are not allowed.")
+    print("Please try again! Input your name.")
 
 while True:
     budgetInput = input("Weekly budget: ")
