@@ -1,11 +1,5 @@
 #Kassandra Faye Llagas
 #BSIT SE 1A
-
-print("==========================================")
-print("        STUDENT -- INFORMATION            ")
-print("==========================================")
-print(" ")
-
 while True:
     studentNameInput = input("Student name: ")
     if studentNameInput.replace(" ", "").isalpha():
@@ -24,6 +18,7 @@ while True:
     else:
         print("Error: Please enter a valid number for the budget.")
 
+
 categories = [
     "Food & Drinks",
     "Transportation",
@@ -31,6 +26,7 @@ categories = [
     "School Supplies",
     "Entertainment"
 ]
+
 expense_category = [
     "Lunch, snacks, coffee",
     "Bus, jeepney, ride-share",
@@ -48,6 +44,7 @@ for category in categories:
     print(f" {counter}. {category:<18} [e.g. {expense_category[counter-1]}]")
     counter = counter + 1
 print("==========================================")
+
 
 expenses_list = []
 total_spent = 0
