@@ -13,7 +13,6 @@ A Python console application that allows a student to log up to 5 weekly expense
 - Automatic **High Expense Alert** flag when a single expense exceeds 25% of the weekly budget
 - Clean formatted report showing itemized expenses, total spent, remaining balance, and budget status
 - Expenses stored as dictionaries for organized data handling
-- Uses **f-strings** for output formatting (no `.2f` decimal formatting)
 
 
 ---
